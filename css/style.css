@@ -1,0 +1,54 @@
+.page{
+
+    background-color: #ffe6f0;
+    color: 	black; 
+    background-attachment: fixed;
+    text-align: center;
+    position:relative;
+
+}
+
+body{
+
+    margin-top: 55px !important;
+
+}
+
+form{
+    display: inline;
+}
+
+.container{
+    position: absolute;
+    background-color: white;
+    border: 1px solid blue;
+    border-radius: 10px;
+}
+
+.eloszt{
+    
+    position:relative;
+    width: 90%;
+
+}
+
+#navbarNav{
+
+    font-weight: bold;
+
+}
+
+
+.navbar{
+
+    position: fixed;
+    background-color: rgba(0, 0, 0);
+
+}
+
+
+nav {
+
+    box-shadow: 0 2px 4px 0 rgba(0,0,0);
+
+  }
