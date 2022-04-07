@@ -20,7 +20,7 @@ if(isset($_REQUEST['page'])) {
 }
 $menupontok = array(
                         'page' => "Bejelentkezés", 
-                        'regisztracio' => "Bejelentkezés",
+                        'bejelentkezes' => "Bejelentkezés",
 
                 );
 

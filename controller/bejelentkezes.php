@@ -29,7 +29,7 @@ if(empty($nev_err) && empty($email_err) && empty($szuletes_err) && empty($nem_er
     $sql = "INSERT INTO jelentkezok (nev, email, szuletes, nem) VALUES (?, ?, ?, ?)";
      
     if($stmt = mysqli_prepare($conn, $sql)){
-
+        mysqli_stmt_bind_param($stmt, "ssss", $param_nev, $param_email, $param_suletes, $param_nem);
         $param_nev = $nev;
         $param_email = $email;
         $param_suletes = $szuletes;

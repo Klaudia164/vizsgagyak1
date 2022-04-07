@@ -1,7 +1,7 @@
 <body class="page">
     <h1> Futóverseny jelentkezési lap </h1>
     <div>
-        <form method="post">
+        <form action="index.php?page=bejelentkezes" method="post">
             <div class="container">
             <div class="eloszt">
                 <h2>Adatok</h2>
